@@ -12,20 +12,18 @@ span:hover {
 }
 @keyframes myname {
 	0% {color: #0000ff;}
-	25% {color: tomato;}
-	50% {color: red;}
+	25% {color: rgb(236, 123, 103);}
+	50% {color: rgb(199, 84, 84);}
 	75% {color: orangered;}
 	100% {color: blue;}
 }
 .myname {
 	animation-name: myname;
-	animation-duration: 2s;
+	animation-duration: 3s;
 	animation-play-state: running;
 	animation-iteration-count: infinite;
 	width: 5%px;
 	height: auto;
 	transition: width 2s linear 0, height 2s linear;
-}
-.btn {
-	transform: rotateZ(360deg);
+	transform: rotate(15deg, 15deg);
 }
